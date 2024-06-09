@@ -108,8 +108,8 @@ def trainingLoop(model, train_loader, num_epochs, criterion, optimizer, validati
 			# Zero the parameter gradients
 			optimizer.zero_grad()
 	        # Forward pass
-			trainPred = model(xtrain)
-			trainingLoss = criterion(trainPred, ytrain)
+			trainPred = model(xtrain.to(device))
+			trainingLoss = criterion(trainPred, ytrain.to(device))
 			# Backward pass and optimize
 			trainingLoss.backward()
 			optimizer.step()
@@ -161,8 +161,8 @@ def trainingLoop(model, train_loader, num_epochs, criterion, optimizer, validati
 			validationRunningLoss = 0.0
 			with torch.no_grad():
 				for xvalid, yvalid in validation_loader:
-					validPred = model(xvalid)
-					validationLoss = criterion(validPred, yvalid)
+					validPred = model(xvalid.to(device))
+					validationLoss = criterion(validPred, yvalid.to(device))
 					validationRunningLoss += validationLoss.item()
 			currentEpochValidationLoss = validationRunningLoss/len(validation_loader)
 			validationLossArray.append(currentEpochValidationLoss)
