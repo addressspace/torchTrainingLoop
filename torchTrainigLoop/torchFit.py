@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 import os
-import matplotlib.pyplot as plt
+
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 from IPython.display import display, clear_output

@@ -1,6 +1,6 @@
 __pycache__/
 data/
 .ipynb_checkpoints/
-model_dicts/
-loss_array/
-myTrashed/
+torchTrainigLoop/model_dicts/
+torchTrainigLoop/loss_array/
+torchTrainigLoop/myTrashed/

@@ -1,0 +1,9 @@
+README.md
+setup.py
+torchTrainigLoop/__init__.py
+torchTrainigLoop/torchFit.py
+torchTrainigLoop.egg-info/PKG-INFO
+torchTrainigLoop.egg-info/SOURCES.txt
+torchTrainigLoop.egg-info/dependency_links.txt
+torchTrainigLoop.egg-info/requires.txt
+torchTrainigLoop.egg-info/top_level.txt
