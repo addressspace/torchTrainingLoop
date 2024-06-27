@@ -1,3 +1,5 @@
+#python setup.py bdist_wheel
+
 from setuptools import setup, find_packages
 
 setup(
@@ -8,7 +10,7 @@ setup(
     description='It make torch training loop more simple and visualize loss in curve.',
     packages=find_packages(),
     install_requires=[
-        'torch>=2.3.0',
+        'torch>=2.2.0',
         'numpy>=1.26.3',
         'ipython>=8.18.1',
         'jupyter>=1.0.0',

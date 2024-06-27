@@ -6,4 +6,5 @@ torchTrainigLoop.egg-info/dependency_links.txt
 torchTrainigLoop.egg-info/requires.txt
 torchTrainigLoop.egg-info/top_level.txt
 torchTrainingLoop/__init__.py
+torchTrainingLoop/externalLoop.py
 torchTrainingLoop/torchFit.py

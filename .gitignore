@@ -4,3 +4,7 @@ data/
 torchTrainigLoop/model_dicts/
 torchTrainigLoop/loss_array/
 torchTrainigLoop/myTrashed/
+.ipynb_checkpoints/
+__pycache__/
+build/
+torchTrainigLoop.egg-info/
